@@ -1,0 +1,9 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.casquette{
+    background-image: url(../img/casquette-r.jpg);
+    height: 100vh;
+    width: 100vw;
+}
