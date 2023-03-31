@@ -1,14 +1,41 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: #FEFEFC;
 }
-
-.container{
+.barnav{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    filter: drop-shadow(0.5rem 0.2rem 1rem #e3e3e3);
+    background: #fff none repeat scroll 0 0;
+}
+.couleur{
+    background-color: #FEFEFC !important;
+}
+.red{
+    border-color: #850606;
+}
+.red:hover{
+    background-color: #850606;
+}
+.centre{
     display: flex;
     justify-content: center;
 }
 
-h1{
+.titre{
     display: flex;
     justify-content: center;
+    margin-top: 3%;
 }
+.contact{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+}
+.about{
+    justify-items: center;
+    text-align: center;
+  }
